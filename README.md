@@ -77,12 +77,6 @@ We are a group of passionate student developers and designers from the **Apple D
 
 ---
 
-## 📝 Presentation Slides
-See our original **presentation delivered at the Apple Developer Academy**:
-[📂 View Slides Here](./CreativeGalaxy_Presentation.pdf)
-
----
-
 ## 🛒 What's Next
 - Implement user progress tracking and streaks
 - Add support for saving and exporting content
