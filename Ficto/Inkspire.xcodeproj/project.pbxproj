@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C714DCFB2D7851DF00145621 /* InkspireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714DCFA2D7851DF00145621 /* InkspireApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C714DD082D7851E000145621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C714DCEF2D7851DF00145621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C714DCF62D7851DF00145621;
+			remoteInfo = Inkspire;
+		};
+		C714DD122D7851E000145621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C714DCEF2D7851DF00145621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C714DCF62D7851DF00145621;
+			remoteInfo = Inkspire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C714DCF72D7851DF00145621 /* Inkspire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inkspire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C714DCFA2D7851DF00145621 /* InkspireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkspireApp.swift; sourceTree = "<group>"; };
+		C714DD072D7851E000145621 /* InkspireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkspireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C714DD112D7851E000145621 /* InkspireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkspireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C714DD3C2D7852F600145621 /* Exceptions for "Test" folder in "Inkspire" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				InkspireTests/InkspireTests.swift,
+				InkspireUITests/InkspireUITests.swift,
+				InkspireUITests/InkspireUITestsLaunchTests.swift,
+			);
+			target = C714DCF62D7851DF00145621 /* Inkspire */;
+		};
+		C714DD3D2D7852F600145621 /* Exceptions for "Test" folder in "InkspireTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				InkspireTests/InkspireTests.swift,
+			);
+			target = C714DD062D7851E000145621 /* InkspireTests */;
+		};
+		C714DD3E2D7852F600145621 /* Exceptions for "Test" folder in "InkspireUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				InkspireUITests/InkspireUITests.swift,
+				InkspireUITests/InkspireUITestsLaunchTests.swift,
+			);
+			target = C714DD102D7851E000145621 /* InkspireUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C714DCF92D7851DF00145621 /* Inkspire */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Inkspire;
+			sourceTree = "<group>";
+		};
+		C714DD252D78525200145621 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C714DD272D78526300145621 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C714DD282D78526D00145621 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C714DD292D78527700145621 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C714DD2A2D78527F00145621 /* Helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C714DD2C2D78528B00145621 /* Assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C714DD312D7852C900145621 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C714DD332D7852E400145621 /* Test */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C714DD3C2D7852F600145621 /* Exceptions for "Test" folder in "Inkspire" target */,
+				C714DD3D2D7852F600145621 /* Exceptions for "Test" folder in "InkspireTests" target */,
+				C714DD3E2D7852F600145621 /* Exceptions for "Test" folder in "InkspireUITests" target */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C714DCF42D7851DF00145621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714DD042D7851E000145621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714DD0E2D7851E000145621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C714DCEE2D7851DF00145621 = {
+			isa = PBXGroup;
+			children = (
+				C714DD332D7852E400145621 /* Test */,
+				C714DD312D7852C900145621 /* Models */,
+				C714DD2A2D78527F00145621 /* Helpers */,
+				C714DD292D78527700145621 /* Resources */,
+				C714DD282D78526D00145621 /* Services */,
+				C714DD272D78526300145621 /* Views */,
+				C714DD252D78525200145621 /* ViewModels */,
+				C714DCF92D7851DF00145621 /* Inkspire */,
+				C714DCF82D7851DF00145621 /* Products */,
+				C714DD2C2D78528B00145621 /* Assets */,
+				C714DCFA2D7851DF00145621 /* InkspireApp.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		C714DCF82D7851DF00145621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C714DCF72D7851DF00145621 /* Inkspire.app */,
+				C714DD072D7851E000145621 /* InkspireTests.xctest */,
+				C714DD112D7851E000145621 /* InkspireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C714DCF62D7851DF00145621 /* Inkspire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C714DD1B2D7851E000145621 /* Build configuration list for PBXNativeTarget "Inkspire" */;
+			buildPhases = (
+				C714DCF32D7851DF00145621 /* Sources */,
+				C714DCF42D7851DF00145621 /* Frameworks */,
+				C714DCF52D7851DF00145621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C714DCF92D7851DF00145621 /* Inkspire */,
+				C714DD252D78525200145621 /* ViewModels */,
+				C714DD272D78526300145621 /* Views */,
+				C714DD282D78526D00145621 /* Services */,
+				C714DD292D78527700145621 /* Resources */,
+				C714DD2A2D78527F00145621 /* Helpers */,
+				C714DD2C2D78528B00145621 /* Assets */,
+				C714DD312D7852C900145621 /* Models */,
+				C714DD332D7852E400145621 /* Test */,
+			);
+			name = Inkspire;
+			packageProductDependencies = (
+			);
+			productName = Inkspire;
+			productReference = C714DCF72D7851DF00145621 /* Inkspire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C714DD062D7851E000145621 /* InkspireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C714DD1E2D7851E000145621 /* Build configuration list for PBXNativeTarget "InkspireTests" */;
+			buildPhases = (
+				C714DD032D7851E000145621 /* Sources */,
+				C714DD042D7851E000145621 /* Frameworks */,
+				C714DD052D7851E000145621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C714DD092D7851E000145621 /* PBXTargetDependency */,
+			);
+			name = InkspireTests;
+			packageProductDependencies = (
+			);
+			productName = InkspireTests;
+			productReference = C714DD072D7851E000145621 /* InkspireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C714DD102D7851E000145621 /* InkspireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C714DD212D7851E000145621 /* Build configuration list for PBXNativeTarget "InkspireUITests" */;
+			buildPhases = (
+				C714DD0D2D7851E000145621 /* Sources */,
+				C714DD0E2D7851E000145621 /* Frameworks */,
+				C714DD0F2D7851E000145621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C714DD132D7851E000145621 /* PBXTargetDependency */,
+			);
+			name = InkspireUITests;
+			packageProductDependencies = (
+			);
+			productName = InkspireUITests;
+			productReference = C714DD112D7851E000145621 /* InkspireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C714DCEF2D7851DF00145621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C714DCF62D7851DF00145621 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C714DD062D7851E000145621 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C714DCF62D7851DF00145621;
+					};
+					C714DD102D7851E000145621 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C714DCF62D7851DF00145621;
+					};
+				};
+			};
+			buildConfigurationList = C714DCF22D7851DF00145621 /* Build configuration list for PBXProject "Inkspire" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C714DCEE2D7851DF00145621;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C714DCF82D7851DF00145621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C714DCF62D7851DF00145621 /* Inkspire */,
+				C714DD062D7851E000145621 /* InkspireTests */,
+				C714DD102D7851E000145621 /* InkspireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C714DCF52D7851DF00145621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714DD052D7851E000145621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714DD0F2D7851E000145621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C714DCF32D7851DF00145621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C714DCFB2D7851DF00145621 /* InkspireApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714DD032D7851E000145621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714DD0D2D7851E000145621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C714DD092D7851E000145621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C714DCF62D7851DF00145621 /* Inkspire */;
+			targetProxy = C714DD082D7851E000145621 /* PBXContainerItemProxy */;
+		};
+		C714DD132D7851E000145621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C714DCF62D7851DF00145621 /* Inkspire */;
+			targetProxy = C714DD122D7851E000145621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C714DD192D7851E000145621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C714DD1A2D7851E000145621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C714DD1C2D7851E000145621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inkspire/Preview Content\"";
+				DEVELOPMENT_TEAM = YL8H2559N2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ficto;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MineFicto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C714DD1D2D7851E000145621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inkspire/Preview Content\"";
+				DEVELOPMENT_TEAM = YL8H2559N2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ficto;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Academy.Ficto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C714DD1F2D7851E000145621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YL8H2559N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.InkspireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inkspire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inkspire";
+			};
+			name = Debug;
+		};
+		C714DD202D7851E000145621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YL8H2559N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.InkspireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inkspire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inkspire";
+			};
+			name = Release;
+		};
+		C714DD222D7851E000145621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YL8H2559N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.InkspireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inkspire;
+			};
+			name = Debug;
+		};
+		C714DD232D7851E000145621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YL8H2559N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.InkspireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inkspire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C714DCF22D7851DF00145621 /* Build configuration list for PBXProject "Inkspire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C714DD192D7851E000145621 /* Debug */,
+				C714DD1A2D7851E000145621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C714DD1B2D7851E000145621 /* Build configuration list for PBXNativeTarget "Inkspire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C714DD1C2D7851E000145621 /* Debug */,
+				C714DD1D2D7851E000145621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C714DD1E2D7851E000145621 /* Build configuration list for PBXNativeTarget "InkspireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C714DD1F2D7851E000145621 /* Debug */,
+				C714DD202D7851E000145621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C714DD212D7851E000145621 /* Build configuration list for PBXNativeTarget "InkspireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C714DD222D7851E000145621 /* Debug */,
+				C714DD232D7851E000145621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C714DCEF2D7851DF00145621 /* Project object */;
+}

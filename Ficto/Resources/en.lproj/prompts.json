@@ -1,0 +1,207 @@
+prompts.json
+
+[
+    {
+        "id": 1,
+        "text": "The elevator stopped between floors, and when the doors finally opened, it wasn’t the lobby waiting on the other side."
+    },
+    {
+        "id": 2,
+        "text": "The cashier handed you your change, but along with the coins, there was a small folded note with the words: 'You’re not alone.'"
+    },
+    {
+        "id": 3,
+        "text": "As you rearranged your bookshelf, a dusty envelope fell out from between the pages of a book you didn’t recognize."
+    },
+    {
+        "id": 4,
+        "text": "You spilled your morning coffee, and the pattern it left on the table reminded you of something you had long forgotten."
+    },
+    {
+        "id": 5,
+        "text": "The grocery list was simple—milk, bread, and eggs—but at the bottom, in handwriting you didn’t recognize, were the words: 'Meet me there.'"
+    },
+    {
+        "id": 6,
+        "text": "The power went out for just a few minutes, but when the lights returned, the arrangement of your furniture had subtly changed."
+    },
+    {
+        "id": 7,
+        "text": "Your neighbor’s cat appeared at your door with a ribbon tied around its neck and a tiny brass key dangling from it."
+    },
+    {
+        "id": 8,
+        "text": "The daily news alert was normal until the last line, which read: 'If you’re reading this, stay inside.'"
+    },
+    {
+        "id": 9,
+        "text": "The streetlight outside your window flickered every night at the same time. Tonight, it stayed off for much longer than usual."
+    },
+    {
+        "id": 10,
+        "text": "You were sorting through your old photos when you noticed that in every group picture, there was someone standing in the background wearing the same red coat."
+    },
+    {
+    "id": 11,
+    "text": "You received a voicemail, but it was just the sound of someone breathing and the faint hum of an old song in the background."
+},
+{
+    "id": 12,
+    "text": "Your phone buzzed with a notification: 'Your package has been delivered.' But you hadn’t ordered anything."
+},
+{
+    "id": 13,
+    "text": "The corner of the park bench had initials carved into it, followed by the words: 'It begins here.'"
+},
+{
+    "id": 14,
+    "text": "Your friend asked you about a memory you don’t recall, but they were certain you were there."
+},
+{
+    "id": 15,
+    "text": "You found an old train ticket in your coat pocket with today’s date stamped on it, but you don’t remember ever buying it."
+},
+{
+    "id": 16,
+    "text": "Your morning alarm didn’t go off, and when you checked your phone, the time was frozen at 7:03 AM."
+},
+{
+    "id": 17,
+    "text": "At the café, the barista handed you a cup with a name written on it that wasn’t yours—but you felt like it should be."
+},
+{
+    "id": 18,
+    "text": "A child tugged on your sleeve and whispered, 'You dropped this,' holding out a small golden coin you’ve never seen before."
+},
+{
+    "id": 19,
+    "text": "Your favorite painting in the gallery had been replaced by an almost identical copy, except for one subtle difference."
+},
+{
+    "id": 20,
+    "text": "The train announcement repeated: 'Next stop: Home.' But the train didn’t seem to be slowing down."
+},
+    {
+            "id": 21,
+            "text": "The vending machine dropped an extra item along with your snack, but the wrapper was blank except for a single number."
+        },
+        {
+            "id": 22,
+            "text": "While flipping through the radio stations, you heard your name mentioned, followed by static."
+        },
+        {
+            "id": 23,
+            "text": "The street sign at the corner had changed overnight. It now pointed to a place you’ve never heard of."
+        },
+        {
+            "id": 24,
+            "text": "Your mirror fogged up after your shower, revealing handwriting you didn’t put there."
+        },
+        {
+            "id": 25,
+            "text": "The bus driver handed you a ticket and whispered, 'Don’t lose this. You’ll need it.'"
+        },
+        {
+            "id": 26,
+            "text": "Every time you walked past the park bench, someone new was sitting there, but they all had the same pair of red shoes."
+        },
+        {
+            "id": 27,
+            "text": "You walked into your office and found a yellow sticky note on your desk that read, 'Check the drawer.'"
+        },
+        {
+            "id": 28,
+            "text": "The street performer playing the violin nodded at you and started playing a tune that felt eerily familiar."
+        },
+        {
+            "id": 29,
+            "text": "While washing your hands, you noticed the water briefly flowed backward before returning to normal."
+        },
+        {
+            "id": 30,
+            "text": "The book you were reading had a chapter that began with the words, 'You’re being watched.'"
+        },
+        {
+            "id": 31,
+            "text": "Your wallet had an extra photo in it, showing you with someone you don’t recognize."
+        },
+        {
+            "id": 32,
+            "text": "Every time you turned the corner on your walk home, you felt like someone was just out of sight ahead of you."
+        },
+        {
+            "id": 33,
+            "text": "The new store in the mall sold nothing but jars of air, labeled with dates and places."
+        },
+        {
+            "id": 34,
+            "text": "At midnight, you received a text that said, 'Look outside,' but the street was completely empty."
+        },
+        {
+            "id": 35,
+            "text": "A small crack appeared in your phone screen, but behind it, you saw something moving."
+        },
+        {
+            "id": 36,
+            "text": "The library card catalog had a drawer labeled 'Books That Don’t Exist Yet.'"
+        },
+        {
+            "id": 37,
+            "text": "Your favorite painting had changed slightly, now featuring an extra figure standing in the background."
+        },
+        {
+            "id": 38,
+            "text": "The streetlights flickered in a pattern, almost as if they were trying to communicate something."
+        },
+        {
+            "id": 39,
+            "text": "Your old camera developed a photo you didn’t remember taking, showing a place you’ve never been."
+        },
+        {
+            "id": 40,
+            "text": "The stranger at the coffee shop handed you a napkin with a map drawn on it."
+        },
+        {
+            "id": 41,
+            "text": "The voicemail started with static and ended with a single phrase: 'It’s time.'"
+        },
+        {
+            "id": 42,
+            "text": "The grocery store receipt had a line at the bottom: 'Balance Due: One Memory.'"
+        },
+        {
+            "id": 43,
+            "text": "You felt something heavy in your pocket, and when you reached in, it was a key you’d never seen before."
+        },
+        {
+            "id": 44,
+            "text": "The neighbor you’d never met knocked on your door, asking if they could borrow your time, not a cup of sugar."
+        },
+        {
+            "id": 45,
+            "text": "The box of cereal had a prize inside: a tiny envelope that was addressed to you."
+        },
+        {
+            "id": 46,
+            "text": "The photograph you found was black and white, except for one object in vibrant color."
+        },
+        {
+            "id": 47,
+            "text": "Every clock in the house showed a different time, but they all stopped ticking when you walked by."
+        },
+        {
+            "id": 48,
+            "text": "The antique shop owner handed you an object and said, 'Be careful. It remembers.'"
+        },
+        {
+            "id": 49,
+            "text": "The cashier handed you a receipt with a phone number and the words, 'Call before midnight.'"
+        },
+        {
+            "id": 50,
+            "text": "The empty chair across the table felt occupied, as though someone had just been sitting there."
+        }
+    ]
+
+
+    
