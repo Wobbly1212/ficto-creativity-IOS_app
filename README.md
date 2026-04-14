@@ -1,90 +1,78 @@
-# ✨ Ficto - Unlock Your Creativity
+# Ficto — Unlock Your Creativity
 
-### Created by: **Wobbly Team**  
-Presented at: **Apple Developer Academy**  
-✨ Theme: *A Galaxy of Ideas for Writers & Content Creators*
+A galaxy-themed iOS app designed to help **writers and content creators** overcome creative block through randomized prompts, timed challenges, and an immersive cosmic interface.
 
----
+> Built and presented at the **Apple Developer Academy**. Currently in active development.
 
-## 🌟 Project Overview
-**Ficto** is a mobile application designed to help users — especially **writers and content creators** — overcome **creative block**. Built around a cosmic, galaxy-inspired theme, the app provides an immersive and inspiring environment that encourages users to generate ideas and unleash their creativity under guided constraints.
+## Screenshots
 
-This version of the app is **still under development**, but it has already been **presented at the Apple Developer Academy** and received **excellent feedback**. Our team is actively working on completing the product for future deployment on the **App Store**.
+<!-- Add app screenshots here -->
+<!-- ![Prompt Screen](./screenshots/prompt.png) -->
+<!-- ![Galaxy Theme](./screenshots/galaxy.png) -->
 
----
+*Screenshots coming soon.*
 
-## 🌌 Purpose
-Creative block can be paralyzing. This app is designed to:
-- 🚀 *Unblock creativity fast*
-- 🤖 *Help creators break mental inertia*
-- 🌌 *Deliver imaginative prompts in a vibrant, engaging setting*
+## Features
 
----
+| Feature | Status |
+|---------|--------|
+| Galaxy-themed creative UI | Done |
+| Prompt database (100+ prompts) | Done |
+| Timed writing challenges | In Progress |
+| Save/export user content | Planned |
+| iCloud sync | Planned |
+| App Store release | Planned |
 
-## 📂 Key Features (Current & Planned)
+## How It Works
 
-### 🛸 Galaxy-Themed Creative Interface
-- Visually immersive galaxy-inspired UI
-- Designed to promote a creative, dreamy mental state
+1. Launch the app and press "Start a Prompt"
+2. Receive a random creative scenario from 100+ research-backed prompts
+3. Write your response within the timer limit
+4. Save your writing to your personal archive (coming soon)
 
-### 🔐 Prompt Generator
-- A database of **100+ creative prompts**
-- Extracted from research literature and professional resources
-- Delivered randomly to avoid overthinking
+## Tech Stack
 
-### ⏱ Timed Writing Challenges
-- Prompts are presented with time limits
-- Helps users write fast without filtering themselves
-- Designed to generate raw, authentic content and ideas
+- **Language:** Swift
+- **UI Framework:** SwiftUI
+- **Platform:** iOS 16+
+- **Architecture:** MVVM
+- **Foundation:** Cognitive science and creativity research
 
-### ⚖️ Psychological Foundation
-- Built on insights from cognitive science, creativity studies, and behavioral activation research
-- Encourages *flow state* and *nonjudgmental ideation*
+## Getting Started
 
----
+### Prerequisites
 
-## 🎓 Research & Inspiration
-- Creative block theories (cognitive, emotional, environmental)
-- Psychology of idea generation and divergent thinking
-- Real-world writing exercises used by novelists and screenwriters
-- Feedback from Apple Developer Academy mentors and peer creators
+- Xcode 15+
+- iOS 16+ deployment target
 
----
+### Installation
 
-## 📊 Development Status
-| Feature                     | Status           |
-|-----------------------------|------------------|
-| Core UI & Galaxy Theme      | ✅ Implemented |
-| Prompt Database (100 prompts) | ✅ Completed   |
-| Timer Challenge Function    | ⚠ In Progress  |
-| Save/Export User Content    | ❌ Not Started |
-| iCloud Sync                 | ❌ Not Started |
-| Publishing on App Store     | ⏳ Planned     |
+```bash
+git clone https://github.com/Wobbly1212/ficto-creativity-IOS_app.git
+cd ficto-creativity-IOS_app/Ficto
+open Inkspire.xcodeproj
+```
 
----
+Build and run on a simulator or physical device from Xcode.
 
-## 📄 How to Use (for Demo Version)
-1. Launch the app
-2. Press the “Start a Prompt” button
-3. Receive a random creative situation or scenario
-4. Write your response within the timer limit
-5. Optionally save your writing (feature coming soon)
+## Project Structure
 
----
+```
+Ficto/
+├── InkspireApp.swift   # App entry point
+├── Models/             # Data models
+├── Views/              # SwiftUI views
+├── ViewModels/         # Business logic
+├── Services/           # App services
+├── Helpers/            # Utility functions
+├── Resources/          # Prompt data & assets
+└── Assets/             # Images & colors
+```
 
-## 🧳 Wobbly Team
-We are a group of passionate student developers and designers from the **Apple Developer Academy**. Our team combines backgrounds in writing, psychology, UI design, and programming.
+## Team
 
----
+Built by **Wobbly Team** at the **Apple Developer Academy** — a group of student developers and designers combining backgrounds in writing, psychology, UI design, and programming.
 
-## 🛒 What's Next
-- Implement user progress tracking and streaks
-- Add support for saving and exporting content
-- Polish UI animations and transitions
-- Beta testing and App Store submission
+## License
 
----
-
-## 🙌 License
-*License to be added once project is production-ready.*
-
+This project is licensed under the [MIT License](LICENSE).
